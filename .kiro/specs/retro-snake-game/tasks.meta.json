@@ -1,0 +1,527 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Buat folder `retro-snake-game/` di root workspace": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027453950
+      },
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027475842
+      },
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027490083
+      }
+    ],
+    "1.2 Buat `index.html` dengan struktur HTML5 boilerplate": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027455908
+      },
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027493463
+      },
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027585903
+      }
+    ],
+    "1.3 Buat `style.css` kosong": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027457005
+      },
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027589031
+      }
+    ],
+    "1.4 Buat `game.js` kosong": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027457516
+      }
+    ],
+    "1.5 Verifikasi file terbuka di browser tanpa error konsol": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027457868
+      }
+    ],
+    "2.1 Tambahkan `#app-container` sebagai wrapper utama": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027458050
+      }
+    ],
+    "2.2 Tambahkan `#hud` dengan elemen `#score-display` dan `#high-score-display`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027458323
+      }
+    ],
+    "2.3 Tambahkan elemen `<canvas id=\"gameCanvas\" width=\"400\" height=\"400\">`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027458531
+      }
+    ],
+    "2.4 Tambahkan `#controls-bar` dengan tombol `#btn-pause` dan teks instruksi keyboard": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027458662
+      }
+    ],
+    "2.5 Tambahkan `#overlay-container` yang berisi `#pause-screen` dan `#gameover-screen`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027458806
+      }
+    ],
+    "2.6 Set semua overlay ke `display: none` secara default": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459043
+      }
+    ],
+    "3.1 Definisikan CSS custom properties (variabel warna & font)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459319
+      }
+    ],
+    "3.2 Style `body` dan `#app-container` (dark background, centering, arcade frame border dengan glow)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459445
+      }
+    ],
+    "3.3 Style `#hud` (flex layout, font pixel, warna neon yellow untuk label skor)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459549
+      }
+    ],
+    "3.4 Style `<canvas>` (border neon cyan, box-shadow glow, display block)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459658
+      }
+    ],
+    "3.5 Style `#controls-bar` (tombol pause bergaya arcade, teks instruksi kecil)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459810
+      }
+    ],
+    "3.6 Buat `@keyframes flicker` untuk animasi teks GAME OVER": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027459953
+      }
+    ],
+    "3.7 Buat `@keyframes blink` untuk animasi teks PAUSED": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460079
+      }
+    ],
+    "3.8 Style `#pause-screen` (overlay semi-transparan, teks besar PAUSED)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460188
+      }
+    ],
+    "3.9 Style `#gameover-screen` (overlay, teks GAME OVER dengan animasi flicker, layout tombol)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460309
+      }
+    ],
+    "3.10 Style badge `#new-highscore-badge` (warna emas, glow)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460460
+      }
+    ],
+    "3.11 Pastikan layout responsif di layar kecil (min-width fallback)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460584
+      }
+    ],
+    "4.1 Ambil referensi canvas dan context 2D (`const ctx = canvas.getContext('2d')`)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460711
+      }
+    ],
+    "4.2 Definisikan konstanta: `GRID_SIZE`, `CELL_SIZE`, `BASE_SPEED`, `SPEED_INCREMENT`, `MIN_SPEED`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027460819
+      }
+    ],
+    "4.3 Definisikan objek `state` dengan semua field yang diperlukan": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461064
+      }
+    ],
+    "4.4 Implementasikan fungsi `init()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461206
+      }
+    ],
+    "4.5 Panggil `init()` saat halaman pertama dimuat": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461306
+      }
+    ],
+    "5.1 Implementasikan `gameLoop()` dengan `setTimeout` menggunakan `state.speed`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461409
+      }
+    ],
+    "5.2 Implementasikan `applyDirection()` — terapkan `nextDirection` ke `direction`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461536
+      }
+    ],
+    "5.3 Implementasikan `moveSnake()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461654
+      }
+    ],
+    "5.4 Implementasikan `checkCollision()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027461776
+      }
+    ],
+    "5.5 Implementasikan `checkFoodCollision()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027462071
+      }
+    ],
+    "5.6 Implementasikan `spawnFood()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027462352
+      }
+    ],
+    "5.7 Implementasikan `updateSpeed()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027462488
+      }
+    ],
+    "6.1 Implementasikan `render()` yang memanggil semua sub-fungsi render": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027462634
+      }
+    ],
+    "6.2 Implementasikan `drawBackground()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027462765
+      }
+    ],
+    "6.3 Implementasikan `drawSnake()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027462889
+      }
+    ],
+    "6.4 Implementasikan `drawFood()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463017
+      }
+    ],
+    "6.5 Pastikan `ctx.shadowBlur` di-reset ke 0 setelah setiap elemen untuk tidak bocor ke elemen lain": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463138
+      }
+    ],
+    "7.1 Implementasikan `updateScore(points)`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463284
+      }
+    ],
+    "7.2 Implementasikan `saveHighScore()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463407
+      }
+    ],
+    "7.3 Update `#high-score-display` setiap kali highScore berubah": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463525
+      }
+    ],
+    "7.4 Panggil `saveHighScore()` di dalam `triggerGameOver()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463687
+      }
+    ],
+    "8.1 Implementasikan `togglePause()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463807
+      }
+    ],
+    "8.2 Pasang event listener pada tombol `#btn-pause` → panggil `togglePause()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027463922
+      }
+    ],
+    "8.3 Pasang event listener keyboard untuk key `P` → panggil `togglePause()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027464048
+      }
+    ],
+    "8.4 Pastikan `gameLoop()` langsung return jika `status !== 'RUNNING'`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027464363
+      }
+    ],
+    "9.1 Implementasikan `triggerGameOver()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027464542
+      }
+    ],
+    "9.2 Pasang event listener pada tombol `#btn-play-again` → panggil `restartGame()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027464667
+      }
+    ],
+    "9.3 Implementasikan `restartGame()`:": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027464806
+      }
+    ],
+    "9.4 Pasang event listener keyboard `Enter` untuk restart saat status `GAMEOVER`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027464973
+      }
+    ],
+    "10.1 Pasang satu `keydown` event listener global di `document`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465118
+      }
+    ],
+    "10.2 Map `ArrowUp`/`w` → `nextDirection = {x:0, y:-1}` (blokir jika arah saat ini ke bawah)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465250
+      }
+    ],
+    "10.3 Map `ArrowDown`/`s` → `nextDirection = {x:0, y:1}` (blokir jika arah saat ini ke atas)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465404
+      }
+    ],
+    "10.4 Map `ArrowLeft`/`a` → `nextDirection = {x:-1, y:0}` (blokir jika arah saat ini ke kanan)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465559
+      }
+    ],
+    "10.5 Map `ArrowRight`/`d` → `nextDirection = {x:1, y:0}` (blokir jika arah saat ini ke kiri)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465687
+      }
+    ],
+    "10.6 Map `p`/`P` → `togglePause()` (hanya saat status `RUNNING` atau `PAUSED`)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465827
+      }
+    ],
+    "10.7 Map `Enter` → `restartGame()` (hanya saat status `GAMEOVER`) atau `startGame()` (saat `IDLE`)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027465961
+      }
+    ],
+    "10.8 Panggil `e.preventDefault()` untuk tombol panah agar halaman tidak scroll": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027466113
+      }
+    ],
+    "11.1 Buat elemen `#start-screen` di HTML (tersembunyi secara default)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027466273
+      }
+    ],
+    "11.2 Tampilkan `#start-screen` saat `status === 'IDLE'` di `init()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027466431
+      }
+    ],
+    "11.3 Render canvas dalam kondisi statis (ular awal, no movement) saat IDLE": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027466617
+      }
+    ],
+    "11.4 Implementasikan `startGame()` yang menyembunyikan `#start-screen`, set status `RUNNING`, panggil `gameLoop()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027466791
+      }
+    ],
+    "11.5 Pasang event listener: klik `#start-screen` atau tekan `Enter` → `startGame()`": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027466956
+      }
+    ],
+    "12.1 Uji semua skenario di tabel Testing Strategy (lihat `design.md`)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027467116
+      }
+    ],
+    "12.2 Pastikan tidak ada memory leak (timer yang tidak di-clear)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027467272
+      }
+    ],
+    "12.3 Uji persistensi localStorage: skor tersimpan setelah refresh": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027467445
+      }
+    ],
+    "12.4 Cek tampilan di viewport kecil (< 480px)": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027467921
+      }
+    ],
+    "12.5 Pastikan tidak ada scroll otomatis saat menekan tombol panah": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027468383
+      }
+    ],
+    "12.6 Audit aksesibilitas dasar: tombol memiliki `aria-label`, contrast ratio memadai": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027468552
+      }
+    ],
+    "12.7 Minifikasi atau bersihkan komentar debug sebelum rilis": [
+      {
+        "executionId": "93917b25-1c46-43a3-8af5-41bb9d8b0424",
+        "chatSessionId": "sess_7786dfbf-ae69-4021-adb1-6431e904e54c",
+        "timestamp": 1793027468732
+      }
+    ]
+  }
+}

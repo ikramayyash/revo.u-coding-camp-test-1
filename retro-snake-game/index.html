@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro Snake Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="app-container">
+
+    <!-- HUD: Score & High Score -->
+    <div id="hud">
+      <div class="hud-item">
+        <span class="hud-label">SCORE</span>
+        <span id="score-display">0</span>
+      </div>
+      <div class="hud-item">
+        <span class="hud-label">BEST</span>
+        <span id="high-score-display">0</span>
+      </div>
+    </div>
+
+    <!-- Canvas Wrapper -->
+    <div id="canvas-wrapper">
+      <canvas id="gameCanvas" width="400" height="400" aria-label="Snake game canvas"></canvas>
+
+      <!-- Overlays -->
+      <div id="start-screen" class="overlay" role="dialog" aria-modal="true" aria-label="Start screen">
+        <div class="overlay-content">
+          <h1 class="overlay-title neon-green">SNAKE</h1>
+          <p class="overlay-subtitle">RETRO ARCADE</p>
+          <div class="blink-text">PRESS ENTER TO START</div>
+          <div class="hint-text">
+            <p>↑ ↓ ← → or WASD — Move</p>
+            <p>P — Pause</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="pause-screen" class="overlay hidden" role="dialog" aria-modal="true" aria-label="Game paused">
+        <div class="overlay-content">
+          <h2 class="overlay-title neon-cyan blink-text">⏸ PAUSED</h2>
+          <p class="hint-text">PRESS P TO RESUME</p>
+        </div>
+      </div>
+
+      <div id="gameover-screen" class="overlay hidden" role="dialog" aria-modal="true" aria-label="Game over">
+        <div class="overlay-content">
+          <h2 class="overlay-title neon-red flicker-text">GAME OVER</h2>
+          <div id="new-highscore-badge" class="hidden">✦ NEW HIGH SCORE ✦</div>
+          <div class="score-summary">
+            <div class="score-row">
+              <span class="hud-label">SCORE</span>
+              <span id="final-score">0</span>
+            </div>
+            <div class="score-row">
+              <span class="hud-label">BEST</span>
+              <span id="final-highscore">0</span>
+            </div>
+          </div>
+          <button id="btn-play-again" class="arcade-btn" aria-label="Play again">▶ PLAY AGAIN</button>
+          <p class="hint-text">or press ENTER</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls Bar -->
+    <div id="controls-bar">
+      <button id="btn-pause" class="arcade-btn small" aria-label="Pause or resume game">⏸ PAUSE</button>
+      <span class="hint-text">P = Pause &nbsp;|&nbsp; WASD / Arrows = Move</span>
+    </div>
+
+  </div>
+
+  <script src="game.js" defer></script>
+</body>
+</html>
